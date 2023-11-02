@@ -11,7 +11,7 @@ class Car :public Transport
 	string type;
 public:
 	Car();
-	Car(int max,string seg,string kus,int pas,string typ);
+	Car(int max, string seg, string kus, int pas, string typ, int w, int ma, int mi, int co);
 	void SetMaxBegage(int max);
 	void SetSegment(string seg);
 	void SetKusov(string kus);

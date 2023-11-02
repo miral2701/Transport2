@@ -1,4 +1,5 @@
 #include "Bus.h"
+#include"Transport.h"
 
 Bus::Bus()
 {
@@ -9,7 +10,7 @@ Bus::Bus()
 	max_bagage = 0;
 }
 
-Bus::Bus(int pas, bool con, bool chai, bool rel, int max_)
+Bus::Bus(int pas, bool con, bool chai, bool rel, int max_, int w, int ma, int mi, int co):Transport(w,ma,mi,co)
 {
 	passengers_count = pas;
 	condition = con;

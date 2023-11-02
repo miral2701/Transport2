@@ -9,7 +9,7 @@ class Bus :public Transport
 	int max_bagage;
 public:
 	Bus();
-	Bus(int pas, bool con, bool chai, bool rel, int max_);
+	Bus(int pas, bool con, bool chai, bool rel, int max_, int w, int ma, int mi, int co);
 	void SetPassengersCount(int pasengers);
 	void SetCondition(bool cond);
 	void SetChair(bool ch);

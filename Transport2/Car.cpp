@@ -10,7 +10,7 @@ Car::Car()
 
 }
 
-Car::Car(int max, string seg, string kus, int pas, string typ)
+Car::Car(int max, string seg, string kus, int pas, string typ, int w, int ma, int mi, int co) :Transport(w, ma, mi, co)
 {
 	max_baggage = max;
 	segment = seg;
