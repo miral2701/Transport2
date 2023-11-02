@@ -1,4 +1,7 @@
 #include "Metro.h"
+#include<iostream>
+using namespace std;
+
 void Metro::Comfort() {
 	cout << "Уровень комфорта низкий";
 }

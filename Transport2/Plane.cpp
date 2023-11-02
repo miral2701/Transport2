@@ -1,4 +1,6 @@
 #include "Plane.h"
+#include<iostream>
+using namespace std;
 void Plane::Comfort() {
 	cout << "Уровень комфорта высокий";
 }

@@ -1,4 +1,6 @@
 #include "Train.h"
+#include<iostream>
+using namespace std;
 void Train::Comfort() {
 	cout << "Уровень комфорта средний";
 }

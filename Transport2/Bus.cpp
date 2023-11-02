@@ -1,6 +1,7 @@
 #include "Bus.h"
 #include"Transport.h"
-
+#include<iostream>
+using namespace std;
 Bus::Bus()
 {
 	passengers_count = 0;
